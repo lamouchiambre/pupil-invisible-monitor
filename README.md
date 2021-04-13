@@ -69,7 +69,8 @@ After installating, Pupil Invisible Monitor is registered as a Python console sc
 
 ```sh
 # equivalent to running `python -m pupil_invisible_monitor`
-pupil_invisible_monitor
+ https://github.com/pupil-labs/pyndsi/archive/v1.4.zip
+
 ```
 
 ### Troubleshooting

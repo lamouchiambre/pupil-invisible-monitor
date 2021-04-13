@@ -19,8 +19,13 @@ requirements = [
     f'pyglui @ https://github.com/pupil-labs/pyglui/releases/download/v{PYLGUI_VERSION}/pyglui-{PYLGUI_VERSION}-cp36-cp36m-win_amd64.whl ; platform_system == "Windows"',
     # Install pyndsi from source for Unix and from wheel for Windows.
     f'ndsi @ https://github.com/pupil-labs/pyndsi/archive/v{PYNDSI_VERSION}.zip ; platform_system != "Windows"',
-    f'ndsi @ https://github.com/pupil-labs/pyndsi/releases/download/v{PYNDSI_VERSION}/ndsi-{PYNDSI_VERSION}-cp36-cp36m-win_amd64.whl ; platform_system == "Windows"',
+    f'ndsi @ https://github.com/pupil-labs/pyndsi/releases/download/v{PYNDSI_VERSION}/ndsi-1.4-cp36-cp36m-win_amd64.whl ; platform_system == "Windows"',
 ]
+#ndsi-1.4-cp36-cp36m-win_amd64.whl
+#f'ndsi @ https://github.com/pupil-labs/pyndsi/releases/download/v{PYNDSI_VERSION}/ndsi-{PYNDSI_VERSION}-cp36-cp36m-win_amd64.whl ; platform_system == "Windows"',
+#https://github.com/pupil-labs/pyndsi/releases/download/v1.4/ndsi-1.2-cp36-cp36m-win_amd64.whl
+#https://github.com/pupil-labs/pyndsi/archive/v1.4.zip
+
 
 package = "pupil_invisible_monitor"
 
